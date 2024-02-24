@@ -1,0 +1,51 @@
+.search-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 19px;
+}
+
+.magic-prompt{
+  padding: 5px 10px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.input-container{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(0,0,82,.15) 0 2px 4px;
+}
+
+.input-container input{
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  font-weight: 500;
+  color: #333;
+}
+
+.input-container button{
+  width: 150px;
+  height: 100%;
+  font-size: 17px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.input-container input::placeholder{
+  color: #aaa;
+  margin-left: 10px;
+}
